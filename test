@@ -1,0 +1,4 @@
+import platform
+dir(platform)
+#print(*dir(platform), sep='\n')
+print(win32 := platform.win32_ver())
