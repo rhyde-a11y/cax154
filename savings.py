@@ -55,10 +55,6 @@ class SavingsAccount(BankAccount):
         # We can leverage the parent string representation or build a custom one:
         return f"Savings Account {self.account_number} – Owner: {self.owner}, Balance: ${self.balance:.2f} (Interest Rate: {self.interest_rate}%)"
 
-
-# ==========================================
-# TEST CODE
-# ==========================================
 if __name__ == "__main__":
     print("--- 1. Creating a SavingsAccount Instance ---")
     # Create an instance of SavingsAccount (5% interest rate)
